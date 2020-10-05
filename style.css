@@ -62,7 +62,7 @@ button {
   margin: 50px;
 }
 
-.button:hover {
+button:hover {
   background-color: lightpink;
 }
 .main-page-text {
