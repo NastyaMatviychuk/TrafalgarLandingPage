@@ -12,41 +12,21 @@ a {
   text-decoration: none;
   color: black;
 }
-
-.listStyle {
-  list-style-type: none;
-}
-.displayingMenu {
-  height: 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
-  padding: 10px;
-}
-.font-size48 {
+h1 {
   font-size: 48px;
 }
-.font-size20 {
-  font-size: 20px;
-}
-.font-size35 {
+h2 {
   font-size: 35px;
 }
-.dotElements {
-  position: absolute;
-  top: 20px;
-  left: -90px;
+ul {
+  list-style-type: none;
+  font-size: 20px;
 }
-
-.displayingPage1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: relative;
-  margin: 50px;
+p {
+  font-size: 20px;
+  color: grey;
 }
-.button {
+button {
   background-color: #458ff6;
   border: #458ff6 solid 1px;
   color: white;
@@ -59,10 +39,33 @@ a {
   width: 200px;
   height: 56px;
 }
+
+.navbar {
+  height: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  padding: 10px;
+}
+.main-pg-gots {
+  position: absolute;
+  top: 20px;
+  left: -90px;
+}
+
+.pages-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  margin: 50px;
+}
+
 .button:hover {
   background-color: lightpink;
 }
-.mainPageText {
+.main-page-text {
   height: 30%;
   width: 30%;
   padding: 30px;
@@ -71,41 +74,35 @@ a {
 .logo {
   margin: 10px;
 }
-.whitebutton {
+.btn-inversed {
   background-color: white;
   color: #458ff6;
 }
-.greyfont {
-  color: grey;
-}
-.secondPageText {
+.hprov-page-text {
   height: 30%;
   width: 30%;
   padding: 30px;
   margin: 50px;
 }
-.thirdPageDisplaying {
+.services-page {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.img-bg {
-  background-image: url(image/background.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.plainTextPage3 {
+.services-page-text {
   padding: 10px;
   width: 900px;
   text-align: center;
+  color: grey;
+  font-size: 20px;
 }
-.figure-1 {
+.service-pg-bg {
   position: absolute;
   z-index: -1;
   height: 100%;
   margin-top: 200px;
 }
-.figure-2 {
+.service-pg-dots {
   position: absolute;
   z-index: -1;
   margin-top: 40%;
@@ -114,13 +111,8 @@ a {
 .margin60 {
   margin: 60px;
 }
-.boxsize {
-  padding: 30px;
-  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-  border-radius: 20px;
-  background-color: white;
-}
-.wraper {
+
+.wrapper {
   margin-top: 40px;
   display: grid;
   /*    align-items: center;*/
@@ -131,27 +123,35 @@ a {
   row-gap: 37px;
 }
 
-.boxLogoStyle {
+.feature-container {
+  padding: 30px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  background-color: white;
+}
+.feature-container h5 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.feature-container p {
+  text-align: left;
+}
+feature-container img {
   height: 90px;
   width: 92px;
 }
-.boxHeaderStyle {
-  margin-bottom: 20px;
-}
-.boxDescriptionStyle {
-  text-align: left;
-}
-div.boxsize:hover {
+
+div.feature-container:hover {
   border: 2px solid #458ff6;
 }
-.footerStyle {
+.footer {
   margin-top: 150px;
   width: 100%;
   height: 160px;
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
   color: white;
 }
-.itemsPositionInFooter {
+.footer-content {
   display: flex;
   height: 100%;
   flex-direction: row;
